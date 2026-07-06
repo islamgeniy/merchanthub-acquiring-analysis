@@ -1,0 +1,5 @@
+plan_id,plan_name,monthly_price,is_paid
+1,Free,0,0
+2,Lite,19000,1
+3,Plus,49000,1
+4,Premium,99000,1

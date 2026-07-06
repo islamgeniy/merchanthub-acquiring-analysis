@@ -1,0 +1,6 @@
+merchant_id,legal_name,brand_name,category_id,region_id,onboarded_date,size_band,settlement_account_bank,status
+1,OOO Merchant-1,Brand1,14,5,2023-12-01,small,NBU,active
+2,OOO Merchant-2,Brand2,6,8,2021-08-25,small,Aloqabank,active
+3,OOO Merchant-3,Brand3,15,7,2021-07-09,small,NBU,active
+4,OOO Merchant-4,Brand4,12,11,2020-09-30,small,Hamkorbank,active
+5,OOO Merchant-5,Brand5,1,9,2020-01-09,micro,Hamkorbank,active

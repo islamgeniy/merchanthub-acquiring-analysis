@@ -1,0 +1,6 @@
+user_id,signup_ts,city,device_os,acq_channel,age
+1,2024-07-21 03:49:00,Tashkent,Android,organic,32
+2,2025-08-09 23:07:09,Tashkent,iOS,referral,26
+3,2025-06-03 20:51:38,Navoi,Android,instagram_ads,32
+4,2025-02-02 15:35:32,Samarkand,Android,tiktok_ads,18
+5,2025-01-30 08:30:34,Fergana,Android,organic,36

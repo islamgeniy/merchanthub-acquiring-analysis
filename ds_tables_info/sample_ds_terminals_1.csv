@@ -1,0 +1,6 @@
+terminal_id,merchant_id,terminal_type,region_id,device_model,activated_date,is_active
+1,1,POS,5,Ingenico,2024-02-14,True
+2,2,QR,8,Ingenico,2021-09-25,True
+3,3,POS,7,Ingenico,2021-10-01,True
+4,4,POS,11,Software-QR,2021-01-09,True
+5,5,POS,9,Ingenico,2020-02-27,True

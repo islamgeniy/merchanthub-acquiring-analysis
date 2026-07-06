@@ -1,0 +1,6 @@
+merchant_id,merchant_name,mcc_code,region,onboarding_date,risk_tier,avg_ticket_expected
+1,Merchant 1,5300,Surxondaryo,2020-08-25,low,142041
+2,Merchant 2,6011,Toshkent shahri,2018-10-23,low,610571
+3,Merchant 3,5300,Jizzax,2019-12-18,low,128592
+4,Merchant 4,4812,Farg'ona,2020-08-21,low,174104
+5,Merchant 5,6011,Toshkent shahri,2019-08-17,low,333676

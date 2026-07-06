@@ -1,0 +1,6 @@
+subscription_id,user_id,plan_id,started_at,status,canceled_at
+1,11,2,2025-10-13 13:36:09,active,
+2,12,2,2026-06-07 04:25:09,active,
+3,26,3,2025-12-11 22:18:51,active,
+4,28,2,2026-03-20 01:01:55,active,
+5,32,3,2025-05-10 13:09:29,canceled,2025-07-09 13:09:29

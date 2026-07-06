@@ -1,0 +1,6 @@
+txn_id,terminal_id,txn_ts,amount_uzs,status,auth_response,card_scheme,is_cross_region,settlement_id
+1,529,2025-12-26 07:21:00,1712100,approved,0,VISA,False,10835
+2,2517,2025-10-11 11:05:00,51300,approved,0,MASTERCARD,True,50842
+3,1834,2025-09-14 12:16:00,266700,approved,0,HUMO,False,37333
+4,1630,2025-12-26 17:29:00,652600,approved,0,UZCARD,False,33070
+5,1831,2025-11-07 11:23:00,477200,approved,0,MASTERCARD,False,37364

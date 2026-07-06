@@ -1,0 +1,190 @@
+table_name,ordinal_position,column_name,data_type,is_nullable
+ds_app_events,1,event_id,bigint,YES
+ds_app_events,2,user_id,bigint,YES
+ds_app_events,3,event_type,text,YES
+ds_app_events,4,event_ts,timestamp without time zone,YES
+ds_app_events,5,amount,double precision,YES
+ds_cards,1,card_id,bigint,YES
+ds_cards,2,customer_id,bigint,YES
+ds_cards,3,card_type,text,YES
+ds_cards,4,product_tier,text,YES
+ds_cards,5,issue_date,timestamp without time zone,YES
+ds_cards,6,expiry_date,timestamp without time zone,YES
+ds_cards,7,status,text,YES
+ds_cards,8,credit_limit,bigint,YES
+ds_categories,1,category_id,bigint,YES
+ds_categories,2,category_name,text,YES
+ds_categories,3,cluster,text,YES
+ds_channels,1,channel_id,bigint,YES
+ds_channels,2,channel_name,text,YES
+ds_channels,3,cost_per_install,bigint,YES
+ds_charges,1,charge_id,bigint,YES
+ds_charges,2,subscription_id,bigint,YES
+ds_charges,3,user_id,bigint,YES
+ds_charges,4,charged_at,timestamp without time zone,YES
+ds_charges,5,amount,bigint,YES
+ds_charges,6,status,text,YES
+ds_couriers,1,courier_id,bigint,YES
+ds_couriers,2,city,text,YES
+ds_couriers,3,vehicle_type,text,YES
+ds_couriers,4,active,boolean,YES
+ds_customers,1,customer_id,bigint,YES
+ds_customers,2,full_name,text,YES
+ds_customers,3,birth_date,timestamp without time zone,YES
+ds_customers,4,gender,text,YES
+ds_customers,5,region,text,YES
+ds_customers,6,customer_segment,text,YES
+ds_customers,7,onboarding_date,timestamp without time zone,YES
+ds_customers,8,income_band,text,YES
+ds_deliveries,1,delivery_id,bigint,YES
+ds_deliveries,2,order_id,bigint,YES
+ds_deliveries,3,courier_id,bigint,YES
+ds_deliveries,4,promised_ts,timestamp without time zone,YES
+ds_deliveries,5,delivered_ts,timestamp without time zone,YES
+ds_deliveries,6,status,text,YES
+ds_disputes,1,dispute_id,bigint,YES
+ds_disputes,2,txn_id,bigint,YES
+ds_disputes,3,opened_date,timestamp without time zone,YES
+ds_disputes,4,reason_code,text,YES
+ds_disputes,5,dispute_type,text,YES
+ds_disputes,6,dispute_amount_uzs,bigint,YES
+ds_disputes,7,status,text,YES
+ds_disputes,8,resolved_date,timestamp without time zone,YES
+ds_events,1,event_id,bigint,YES
+ds_events,2,user_id,bigint,YES
+ds_events,3,event_ts,timestamp without time zone,YES
+ds_events,4,event_type,text,YES
+ds_events,5,product_id,bigint,YES
+ds_mcc_categories,1,mcc_code,bigint,YES
+ds_mcc_categories,2,category_name,text,YES
+ds_mcc_categories,3,category_group,text,YES
+ds_mcc_categories,4,is_high_risk,boolean,YES
+ds_merchant_categories,1,category_id,bigint,YES
+ds_merchant_categories,2,mcc,bigint,YES
+ds_merchant_categories,3,category_name,text,YES
+ds_merchant_categories,4,risk_tier,text,YES
+ds_merchants_1,1,merchant_id,bigint,YES
+ds_merchants_1,2,legal_name,text,YES
+ds_merchants_1,3,brand_name,text,YES
+ds_merchants_1,4,category_id,bigint,YES
+ds_merchants_1,5,region_id,bigint,YES
+ds_merchants_1,6,onboarded_date,timestamp without time zone,YES
+ds_merchants_1,7,size_band,text,YES
+ds_merchants_1,8,settlement_account_bank,text,YES
+ds_merchants_1,9,status,text,YES
+ds_merchants_2,1,merchant_id,bigint,YES
+ds_merchants_2,2,merchant_name,text,YES
+ds_merchants_2,3,mcc_code,bigint,YES
+ds_merchants_2,4,region,text,YES
+ds_merchants_2,5,onboarding_date,timestamp without time zone,YES
+ds_merchants_2,6,risk_tier,text,YES
+ds_merchants_2,7,avg_ticket_expected,bigint,YES
+ds_merchants_3,1,merchant_id,bigint,YES
+ds_merchants_3,2,merchant_name,text,YES
+ds_merchants_3,3,home_city,text,YES
+ds_merchants_3,4,joined_date,timestamp without time zone,YES
+ds_merchants_3,5,size_band,text,YES
+ds_order_items,1,order_item_id,bigint,YES
+ds_order_items,2,order_id,bigint,YES
+ds_order_items,3,product_id,bigint,YES
+ds_order_items,4,quantity,bigint,YES
+ds_order_items,5,unit_price,bigint,YES
+ds_orders,1,order_id,bigint,YES
+ds_orders,2,user_id,bigint,YES
+ds_orders,3,ordered_ts,timestamp without time zone,YES
+ds_orders,4,city,text,YES
+ds_orders,5,status,text,YES
+ds_orders,6,total_amount,bigint,YES
+ds_orders,7,item_count,bigint,YES
+ds_payments,1,payment_id,bigint,YES
+ds_payments,2,order_id,bigint,YES
+ds_payments,3,user_id,bigint,YES
+ds_payments,4,method,text,YES
+ds_payments,5,amount,bigint,YES
+ds_payments,6,status,text,YES
+ds_payments,7,attempt_no,bigint,YES
+ds_payments,8,paid_ts,timestamp without time zone,YES
+ds_plans,1,plan_id,bigint,YES
+ds_plans,2,plan_name,text,YES
+ds_plans,3,monthly_price,bigint,YES
+ds_plans,4,is_paid,bigint,YES
+ds_products,1,product_id,bigint,YES
+ds_products,2,merchant_id,bigint,YES
+ds_products,3,category_id,bigint,YES
+ds_products,4,product_name,text,YES
+ds_products,5,price,bigint,YES
+ds_regions,1,region_id,bigint,YES
+ds_regions,2,region_name,text,YES
+ds_regions,3,macro_zone,text,YES
+ds_regions,4,population_k,bigint,YES
+ds_reviews,1,review_id,bigint,YES
+ds_reviews,2,order_id,bigint,YES
+ds_reviews,3,user_id,bigint,YES
+ds_reviews,4,rating,bigint,YES
+ds_reviews,5,review_ts,timestamp without time zone,YES
+ds_settlements,1,settlement_id,bigint,YES
+ds_settlements,2,merchant_id,bigint,YES
+ds_settlements,3,batch_date,timestamp without time zone,YES
+ds_settlements,4,settled_ts,timestamp without time zone,YES
+ds_settlements,5,gross_amount_uzs,bigint,YES
+ds_settlements,6,commission_uzs,bigint,YES
+ds_settlements,7,net_amount_uzs,bigint,YES
+ds_settlements,8,holdback_uzs,bigint,YES
+ds_subscriptions,1,subscription_id,bigint,YES
+ds_subscriptions,2,user_id,bigint,YES
+ds_subscriptions,3,plan_id,bigint,YES
+ds_subscriptions,4,started_at,timestamp without time zone,YES
+ds_subscriptions,5,status,text,YES
+ds_subscriptions,6,canceled_at,timestamp without time zone,YES
+ds_support_tickets,1,ticket_id,bigint,YES
+ds_support_tickets,2,user_id,bigint,YES
+ds_support_tickets,3,order_id,bigint,YES
+ds_support_tickets,4,opened_ts,timestamp without time zone,YES
+ds_support_tickets,5,reason,text,YES
+ds_support_tickets,6,status,text,YES
+ds_support_tickets,7,resolved_ts,timestamp without time zone,YES
+ds_terminals_1,1,terminal_id,bigint,YES
+ds_terminals_1,2,merchant_id,bigint,YES
+ds_terminals_1,3,terminal_type,text,YES
+ds_terminals_1,4,region_id,bigint,YES
+ds_terminals_1,5,device_model,text,YES
+ds_terminals_1,6,activated_date,timestamp without time zone,YES
+ds_terminals_1,7,is_active,boolean,YES
+ds_terminals_2,1,terminal_id,bigint,YES
+ds_terminals_2,2,merchant_id,bigint,YES
+ds_terminals_2,3,channel,text,YES
+ds_terminals_2,4,device_city,text,YES
+ds_terminals_2,5,activated_date,timestamp without time zone,YES
+ds_terminals_2,6,is_active,boolean,YES
+ds_transactions_1,1,txn_id,bigint,YES
+ds_transactions_1,2,terminal_id,bigint,YES
+ds_transactions_1,3,txn_ts,timestamp without time zone,YES
+ds_transactions_1,4,amount_uzs,bigint,YES
+ds_transactions_1,5,status,text,YES
+ds_transactions_1,6,auth_response,bigint,YES
+ds_transactions_1,7,card_scheme,text,YES
+ds_transactions_1,8,is_cross_region,boolean,YES
+ds_transactions_1,9,settlement_id,bigint,YES
+ds_transactions_2,1,transaction_id,bigint,YES
+ds_transactions_2,2,card_id,bigint,YES
+ds_transactions_2,3,merchant_id,bigint,YES
+ds_transactions_2,4,terminal_id,bigint,YES
+ds_transactions_2,5,txn_ts,timestamp without time zone,YES
+ds_transactions_2,6,amount_uzs,bigint,YES
+ds_transactions_2,7,txn_status,text,YES
+ds_transactions_2,8,decline_reason,text,YES
+ds_transactions_2,9,is_recurring,boolean,YES
+ds_transactions_2,10,entry_mode,text,YES
+ds_transactions_2,11,is_disputed,boolean,YES
+ds_users_1,1,user_id,bigint,YES
+ds_users_1,2,signup_ts,timestamp without time zone,YES
+ds_users_1,3,city,text,YES
+ds_users_1,4,device_os,text,YES
+ds_users_1,5,acq_channel,text,YES
+ds_users_1,6,age,bigint,YES
+ds_users_2,1,user_id,bigint,YES
+ds_users_2,2,signup_ts,timestamp without time zone,YES
+ds_users_2,3,channel_id,bigint,YES
+ds_users_2,4,region,text,YES
+ds_users_2,5,device_os,text,YES
+ds_users_2,6,age,bigint,YES

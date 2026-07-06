@@ -1,0 +1,6 @@
+mcc_code,category_name,category_group,is_high_risk
+5411,Grocery,Retail,False
+5812,Restaurants,Services,False
+5912,Pharmacy,Retail,False
+5541,Fuel,Retail,False
+5732,Electronics,Retail,False

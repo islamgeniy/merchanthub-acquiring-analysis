@@ -1,0 +1,6 @@
+dispute_id,txn_id,opened_date,reason_code,dispute_type,dispute_amount_uzs,status,resolved_date
+1,9,2025-02-19,product_not_received,chargeback,19923,lost,2025-02-28
+2,13,2025-12-29,product_not_received,pre_arbitration,271635,lost,2026-01-17
+3,18,2025-11-23,fraud,chargeback,759604,won,2025-12-19
+4,69,2025-05-12,quality,pre_arbitration,145456,won,2025-05-20
+5,76,2025-11-28,fraud,chargeback,937812,won,2025-12-28

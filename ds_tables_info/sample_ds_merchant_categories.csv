@@ -1,0 +1,6 @@
+category_id,mcc,category_name,risk_tier
+1,5411,Supermarket,low
+2,5812,Restaurant,low
+3,5912,Pharmacy,low
+4,4789,Transport,low
+5,5999,OnlineRetail,medium

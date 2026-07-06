@@ -1,0 +1,6 @@
+transaction_id,card_id,merchant_id,terminal_id,txn_ts,amount_uzs,txn_status,decline_reason,is_recurring,entry_mode,is_disputed
+1,663,176,612,2023-12-24 12:25:00,110200,approved,,True,ecom_cvv,False
+2,2713,354,1261,2023-03-25 18:37:00,129300,approved,,False,ecom_cvv,False
+3,41,417,1472,2023-11-09 12:27:00,97300,approved,,False,contactless,False
+4,1176,112,388,2023-09-26 18:14:00,146400,approved,,False,chip,False
+5,574,305,1072,2023-10-14 07:26:00,68500,approved,,False,contactless,False

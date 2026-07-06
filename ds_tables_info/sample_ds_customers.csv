@@ -1,0 +1,6 @@
+customer_id,full_name,birth_date,gender,region,customer_segment,onboarding_date,income_band
+1,Feruza Hasanova,2000-01-07,F,Toshkent shahri,payroll,2018-10-29,mid
+2,Doniyor Karimov,2005-01-05,M,Andijon,mass,2020-12-29,mid
+3,Nigora Rashidova,1974-01-13,F,Toshkent shahri,premium,2018-04-20,high
+4,Charos Hasanova,1962-01-16,F,Toshkent viloyati,payroll,2022-09-01,mid
+5,Ulugbek Mirzayev,1994-01-08,M,Toshkent shahri,mass,2022-03-27,mid

@@ -1,0 +1,6 @@
+user_id,signup_ts,channel_id,region,device_os,age
+1,2025-02-16 15:30:03,3,Fergana,Android,33
+2,2026-02-04 17:11:11,5,Samarkand,Android,38
+3,2025-12-04 06:25:14,1,Tashkent,Android,17
+4,2025-08-15 08:34:14,1,Tashkent,Android,25
+5,2025-08-12 22:40:52,4,Tashkent,Android,29

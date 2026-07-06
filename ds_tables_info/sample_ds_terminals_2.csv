@@ -1,0 +1,6 @@
+terminal_id,merchant_id,channel,device_city,activated_date,is_active
+1,1,QR,Surxondaryo,2020-10-22,True
+2,1,QR,Surxondaryo,2021-02-20,True
+3,1,QR,Surxondaryo,2021-01-12,True
+4,2,ATM,Toshkent shahri,2019-03-11,True
+5,2,ATM,Toshkent shahri,2018-11-05,True

@@ -1,0 +1,6 @@
+channel_id,channel_name,cost_per_install
+1,organic,0
+2,referral,3000
+3,instagram_ads,18000
+4,google_ads,22000
+5,telegram_ads,9000

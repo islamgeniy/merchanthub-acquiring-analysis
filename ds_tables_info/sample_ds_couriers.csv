@@ -1,0 +1,6 @@
+courier_id,city,vehicle_type,active
+1,Tashkent,car,True
+2,Fergana,car,True
+3,Bukhara,scooter,False
+4,Tashkent,foot,True
+5,Fergana,scooter,True

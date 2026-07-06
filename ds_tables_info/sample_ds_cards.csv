@@ -1,0 +1,6 @@
+card_id,customer_id,card_type,product_tier,issue_date,expiry_date,status,credit_limit
+1,1,HUMO,standard,2019-05-15,2024-05-13,active,0
+2,2,HUMO,virtual,2021-11-03,2024-11-02,active,3551477
+3,2,UZCARD,standard,2021-12-25,2025-12-24,active,0
+4,3,HUMO,standard,2020-01-10,2023-01-09,active,0
+5,3,UZCARD,gold,2019-06-03,2024-06-01,active,0

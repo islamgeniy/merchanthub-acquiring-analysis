@@ -1,0 +1,6 @@
+order_id,user_id,ordered_ts,city,status,total_amount,item_count
+1,8844,2025-01-13 17:57:00,Tashkent,paid,121400,3
+2,2505,2025-08-01 14:18:00,Fergana,paid,1187600,4
+3,4447,2025-07-24 17:21:00,Tashkent,paid,398600,3
+4,10217,2025-04-16 08:08:00,Samarkand,paid,660200,2
+5,3183,2025-06-07 11:57:00,Tashkent,paid,415300,3
