@@ -1,46 +1,41 @@
 # MerchantHub Acquiring Analytics
 
+Project for analyzing the merchant acquiring ecosystem and turning transaction data into business insights.
+
 ## Team
 
-- Islam
-- Mirakbar
+* Islam
+* Mirakbar
 
 ## Track
 
-MerchantHub (Track C)
+Track C — MerchantHub
 
 ## Goal
 
-Analyze merchant acquiring ecosystem and provide business recommendations.
+Analyze the acquiring ecosystem and provide practical business recommendations based on the data.
 
-## Stack
+## Tech Stack
 
-- PostgreSQL
-- SQL
-- Python
-- pandas
-- matplotlib
+* PostgreSQL
+* SQL
+* Python
+* pandas
+* matplotlib
 
 ## Workflow
 
-Data Discovery
+1. Data discovery
+2. Data cleaning
+3. Exploratory data analysis (EDA)
+4. Hypothesis building
+5. Business insights
+6. Presentation
 
-↓
+## Output
 
-Cleaning
-
-↓
-
-EDA
-
-↓
-
-Hypotheses
-
-↓
-
-Business Insights
-
-↓
-
-Presentation
+* Cleaned and structured dataset
+* SQL analysis
+* Key metrics and trends
+* Business recommendations
+* Final presentation
