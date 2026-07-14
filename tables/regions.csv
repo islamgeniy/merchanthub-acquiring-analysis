@@ -1,0 +1,15 @@
+region_id,region_name,macro_zone,population_k
+1,Toshkent shahri,Capital,2900
+2,Toshkent viloyati,Capital,2700
+3,Samarqand,Central,3900
+4,Buxoro,West,1900
+5,Andijon,Ferghana,3100
+6,Farg'ona,Ferghana,3800
+7,Namangan,Ferghana,2900
+8,Nukus,West,1900
+9,Xorazm,West,1800
+10,Qashqadaryo,South,3300
+11,Surxondaryo,South,2600
+12,Jizzax,Central,1400
+13,Sirdaryo,Central,850
+14,Navoiy,West,1000
